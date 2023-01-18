@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"\n$altura: 514px;\n$ancho: 1280px;\n$color-letra: #AAAABB;\n.contenedor {\n    width: $ancho; }\n\nh1, h2, h3, p {\n    color: $color-letra; }\n\n.contenedor-con-altura {\n    @extend .contenedor;\n    height: $altura; }\n\nul {\n    font-size: 1.2rem;\n    color:red {}\n    ul {\n        font-size: 0.7rem;\n        color: green;\n        ul {\n            font-size: 0.5rem;\n            color: blue;\n            ul {\n                color: grey; } } } }\n\n\na {\n    color: blue;\n    text-decoration: none;\n    font-size: 1.2rem;\n\n    &:hover {\n        color:green {}\n        text-decoration: underline; }\n\n    &:focus {\n        color: red;\n        text-decoration: none; } }\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,WAAW,EAMX,sBAAsB,CANV;EACR,KAAK,EAHD,MAAM;CAGM;;;AAEpB,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC;EACV,KAAK,EALK,OAAO;CAKK;;;AAE1B,AAAA,sBAAsB,CAAC;EAEnB,MAAM,EAXD,KAAK;CAWQ;;;AAEtB,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;CASe;;;AAVpC,AAGI,EAHF,CAGE,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,KAAK;CAKc;;;AAVlC,AAMQ,EANN,CAGE,EAAE,CAGE,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;CAES;;;AAVhC,AASY,EATV,CAGE,EAAE,CAGE,EAAE,CAGE,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG;;;AAG9B,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,MAAM;CAQa;;;AAXlC,AAKI,CALH,AAKI,MAAM,CAAC;EAEJ,eAAe,EAAE,SAAS;CAAG;;;AAPrC,AASI,CATH,AASI,MAAM,CAAC;EACJ,KAAK,EAAE,GAAG;EACV,eAAe,EAAE,IAAI;CAAG"
+}
